@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Grandstander:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-color: beige;
+    width: 100%;
+}
+/* use .on-web to separate the design
+since we want the color of the contact to display purple and 
+when we hoover on it it changes to gray*/
+.on_web {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 550;
+}
+.on_web:hover {
+    color: gray;
+    text-decoration: underline;
+}
+.head_click {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-size: 18px;
+    font-weight: 550;
+}
+.head_click:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.navigation {
+    list-style: none;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    display: flex;
+    gap: 50px;
+    font-family: "Baloo Bhai 2";
+}
+
+/* HOME WEB PAGE */
+.web_name {
+    font-family: "Indie Flower";
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}    
+.welcome {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: "Grandstander";
+    font-size: 2.3vw;
+    color: rgb(119, 27, 153);
+}
+
+.image {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2%;
+    max-width: 600px;
+    width: 45%;
+    height: 45%;
+}
+    /* q is the class of h2 */
+.q {
+    margin: 1px;
+}
+.quote {
+    margin-right: 7%;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-family: "Baloo Bhai 2";
+    font-size: 2.5vw;
+    max-width: 600px;
+}
+.color {
+    color: #95B1EE;
+}
+
+
+
+
+/* CONTACT WEB PAGE */
+.contact_us {
+    width: 80%;
+    margin-top: 10%;
+}
+.contact_h1 {
+    font-size: 2.7vw;
+    font-family: "Baloo Bhai 2";
+    color: rgb(119, 27, 153);
+}
+.lets_talk_description {
+    margin-right: 0%;
+    width: 200%;
+    margin-bottom: 10px;
+    font-family: "Grandstander";
+    font-size: 1vw;
+}
+.box {
+    display: block;
+    object-fit: cover;
+    margin-top: 1px;
+    background-color: #bbc0cb71;
+    width: 100%;
+    padding: 25px;
+    border-radius: 15px;
+    font-family: "Baloo Bhai 2";
+    color: rgba(242, 230, 230, 0.827);
+}
+.container {
+    margin-top: 10%;
+}
+.title_pic {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+.messages_box {
+    display: block;
+    object-fit: cover;
+    margin-top: 1px;
+    background-color: #bbc0cb71;
+    width: 150%;
+    height: 100px;
+    border-radius: 15px;
+}
+.type_sth {
+    /* using display: inline-block; due to it allow the span tag to add margin top */
+    display: inline-block;
+    margin-top: 2%;
+    font-family: "Baloo Bhai 2";
+    color: rgb(166, 164, 164);
+    margin-left: 5%;
+
+}
+.title {
+    margin-right: 50%;
+}
+.label_title {
+    font-family: "Baloo Bhai 2";
+    margin-bottom: 1px;
+}
+.submit {
+    font-family: "Baloo Bhai 2";
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgb(154, 75, 238);
+    margin-top: 10%;
+    width: 120px;
+    padding: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: rgba(154, 75, 238, 0.652);
+}
+.contact_info
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.right_side {
+    display: block;
+    text-align: center;
+}
+.contact {
+    font-family: "Baloo Bhai 2";
+    color: rgb(119, 27, 153);
+    font-size: 2.5vw;
+    margin-bottom: 3px;
+    margin-top: 1px;
+}
+.ul_link {
+    display: contents;
+    justify-content: center;
+    list-style: none;
+}
+.click_link {
+    font-family: "Baloo Bhai 2";
+    font-size: 1.2vw;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+.click_link:hover {
+    text-decoration: underline;
+    color: rgb(237, 239, 234);
+}
+.link_box {
+    background-color: rgb(154, 75, 238);
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+    border-radius: 20px;
+}
+.link_box:hover {
+    background-color: rgba(154, 75, 238, 0.659);
+}
+
+/* ABOUT US WEB PAGE */
+.about_web {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.about_us_img {
+    width: 35%;
+    height: 35%;
+}
+.about_us_info {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+.about_us {
+    font-family: "Baloo Bhai 2";
+    font-size: 2.7vw;
+    color: rgb(119, 27, 153);
+    margin-bottom: 0px;
+}
+.about_us_des {
+    /* text-align: justify; */
+    font-family: "Baloo Bhai 2";
+    font-size: 1vw;
+    margin-top: 0px;
+    color: rgb(44, 44, 44);
+}
+.link_to_server {
+    display: flex;
+    justify-content: center;
+    font-family: "Baloo Bhai 2";
+    color: white;
+    font-size: 1vw;
+    text-decoration: none;
+    
+}
+.link_to_server:hover {
+    color: rgb(237, 239, 234);
+    text-decoration: underline;
+}
+.learn_more {
+    background-color: rgb(154, 75, 238);
+    width: 18%;
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 20px; 
+}
+.learn_more:hover {
+    background-color:  rgba(154, 75, 238, 0.652);
+}
+.abt_right_side {
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.store_name {
+    font-weight: 600;
+    color: #4f2690
+}
+.abt_info {
+    margin-bottom: 7%;
+}
+
+/* OUR SERVICE */
+.s_head {
+    font-family: "Baloo Bhai 2";
+    text-align: center;
+    font-size: 2.3vw;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    color: rgb(119, 27, 153);
+}
+    /* body elements */
+.s_element {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 3%;
+}
+    /* product container */
+
+.product{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: #e0e8f3;
+    border-radius: 20px;
+    width: 18%;
+    padding-bottom: 3%;
+    margin-right: 7%;
+    
+}
+.product_image {
+    margin-top: 8%;
+    width: 60%;
+    margin-bottom: 1%;
+
+}
+
+    /* pattern coontainer */
+.pattern_image{
+    margin-top: 10%;
+    width: 55%;
+}
+
+    /* Tutorial container */
+.tutorial_image {
+    width: 75%;  
+}
+
+.s_text {
+    font-family: "Baloo Bhai 2";
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+    margin-bottom: 1%;
+}
+.s_text_1{
+    margin-top: 1%;
+    font-family: "Baloo Bhai 2";
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+    margin-bottom: 1%;
+}
+.description {
+    margin-top: 1%;
+    font-family: "Baloo Bhai 2";
+    font-size: 0.8vw;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.container_s {
+    text-align: center;
+    background-color: rgb(154, 75, 238);
+    padding: 7px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15%;
+    font-family: "Baloo Bhai 2";
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 1vw;
+}
+.container_s:hover{
+    background-color: rgba(154, 75, 238, 0.652);
+}
+.s_link {
+    text-decoration: none;
+    color: white;
+}
+.s_link:hover {
+    text-decoration: underline;
+}
